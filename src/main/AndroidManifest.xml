@@ -1,2 +1,7 @@
-<!-- Change 'example' below to your company name, and delete this comment. -->
-<manifest package="com.mparticle.kits.example"/>
+<manifest package="com.mparticle.kits.carnival" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <service
+            android:name="com.carnival.sdk.GcmIntentService"
+            android:exported="false"/>
+    </application>
+</manifest>
